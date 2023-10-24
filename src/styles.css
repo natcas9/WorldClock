@@ -1,7 +1,50 @@
-h1 {
-  text-align: center;
+.container {
+  margin-top: 20px;
+}
+
+.clockapp {
+  border: 2px;
+  border-radius: 10px;
+  margin: 0 auto;
+  max-width: 600px;
+  box-shadow: 1px -1px 21px 1px rgba(0, 0, 0, 0.3);
+  margin-top: 50px auto;
+  padding: 16px;
+  background-color: rgb(221, 206, 189);
+}
+
+#selector {
+  border-radius: 15px;
+  width: 100%;
+  font-size: 15px;
+  margin: 0 auto;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+.city {
+  font-size: 15px;
+  margin-left: 10px;
 }
 
 footer {
   text-align: center;
+  font-size: small;
+}
+h1 {
+  margin: 10px;
+  padding: 5px;
+}
+
+body {
+  font-family: "Didact Gothic", sans-serif;
+  background-color: rgb(221, 206, 189);
+}
+.date {
+  font-size: 15px;
+  color: rgb(52, 51, 51);
+  font-weight: 500;
+}
+
+.time {
+  color: rgb(130, 114, 85);
 }
