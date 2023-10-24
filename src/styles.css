@@ -6,12 +6,15 @@ footer {
 h1 {
   margin: 10px;
   padding: 5px;
+  position: relative;
+  bottom: -6px;
+  font-weight: bold;
 }
 
 body {
   font-family: "Didact Gothic", sans-serif;
   font-family: sans-serif;
-  background-color: rgb(88, 56, 19);
+  background-color: rgb(209, 178, 142);
 }
 
 .container {
@@ -22,8 +25,8 @@ body {
   border: 2px;
   border-radius: 10px;
   margin: 0 auto;
-  max-width: 600px;
-  box-shadow: 1px -1px 21px 1px rgba(0, 0, 0, 0.2);
+  max-width: 450px;
+  box-shadow: 1px -1px 21px 1px rgba(0, 0, 0, 0.4);
   margin-top: 50px auto;
   padding: 16px;
   background-color: rgb(241, 224, 204);
@@ -75,4 +78,13 @@ body {
   text-decoration: none;
   color: rgb(130, 114, 85);
   font-weight: bold;
+}
+
+#world-img {
+  height: 70px;
+  width: 120px;
+  float: right;
+  margin-right: 10px;
+  text-align: left;
+  margin-bottom: 20px;
 }
