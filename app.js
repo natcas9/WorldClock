@@ -60,6 +60,9 @@ setInterval(updateTime, 1000);
 
 function changeCity(event) {
   let city = event.target.value;
+  if (city == "current") {
+    city = moment.tz.guess();
+  }
   let cityName = city.replace("_", " ").split("/")[1];
   let cityTime = moment().tz(city);
   let citiesElement = document.querySelector("#clock");
