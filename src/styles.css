@@ -88,3 +88,18 @@ body {
   text-align: left;
   margin-bottom: 20px;
 }
+
+.link-cities {
+  text-decoration: none;
+  color: rgb(95, 83, 59);
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.link-title {
+  text-decoration: none;
+  color: rgb(95, 83, 59);
+  font-weight: bold;
+  font-size: 15px;
+}
