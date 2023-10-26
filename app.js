@@ -62,6 +62,7 @@ function changeCity(event) {
   let city = event.target.value;
   if (city == "current") {
     city = moment.tz.guess();
+    console.log(city);
   }
   let cityName = city.replace("_", " ").split("/")[1];
   let cityTime = moment().tz(city);
@@ -77,6 +78,7 @@ function changeCity(event) {
   )}</small></div>
   </div>
   <a href="/" class=link-cities>All cities</a>`;
+  console.log(cityTime.format("hh:mm:ss "));
 }
 
 let citiesSelect = document.querySelector("#selector");
