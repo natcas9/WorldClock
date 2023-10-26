@@ -1,20 +1,20 @@
 footer {
   text-align: center;
-  margin-top: 5px;
+  margin-top: 8px;
   font-size: 12px;
+  color: #95887a;
 }
 h1 {
   margin: 10px;
   padding: 5px;
   position: relative;
-  bottom: -12px;
-  font-weight: 550;
+  bottom: -14px;
 }
 
 body {
   font-family: "Didact Gothic", sans-serif;
   font-family: sans-serif;
-  background-color: rgb(209, 178, 142);
+  background-color: rgb(248, 241, 234);
 }
 
 .container {
@@ -29,7 +29,7 @@ body {
   box-shadow: 1px -1px 21px 1px rgba(0, 0, 0, 0.4);
   margin-top: 50px auto;
   padding: 16px;
-  background-color: rgb(241, 224, 204);
+  background-color: #ae9e8d;
 }
 
 #selector {
@@ -47,6 +47,7 @@ body {
   justify-content: space-between;
   border-bottom: 1px dashed rgb(187, 173, 155, 0.7);
   margin-top: 7px;
+  color: white;
 }
 
 .city:last-child {
@@ -63,7 +64,7 @@ body {
 }
 
 .time {
-  color: rgb(130, 114, 85);
+  color: white;
   font-size: 30px;
   font-weight: bold;
 }
@@ -76,13 +77,13 @@ body {
 
 .link {
   text-decoration: none;
-  color: rgb(95, 83, 59);
+  color: #95887a;
   font-weight: bold;
 }
 
 #world-img {
-  height: 70px;
-  width: 120px;
+  height: px;
+  width: 150px;
   float: right;
   margin-right: 10px;
   text-align: left;
@@ -99,7 +100,6 @@ body {
 
 .link-title {
   text-decoration: none;
-  color: rgb(95, 83, 59);
-  font-weight: bold;
+  color: white;
   font-size: 15px;
 }
